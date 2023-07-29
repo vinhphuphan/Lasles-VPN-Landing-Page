@@ -2,7 +2,7 @@
 
 
 
-### About the project
+## About the project
 
 <strong>Welcome to the GitHub repository for the LaslesVPN Landing Page 👋👋👋</strong>
 
