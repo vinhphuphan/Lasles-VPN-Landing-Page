@@ -1,10 +1,8 @@
-<div align='center'><img src='https://raw.githubusercontent.com/vinhphuphan/Lasles-VPN-Landing-Page/main/images/logo.png'/></div>
+<div align='center'><img src='https://raw.githubusercontent.com/vinhphuphan/Lasles-VPN-Landing-Page/main/images/logo.svg' style="width: 8vw"/> 
+  <h1 >LaslesVPN</h1>
+</div>
 
-
-
-## About the project
-
-<strong>Welcome to the GitHub repository for the LaslesVPN Landing Page 👋👋👋</strong>
+### About the project
 
 <p><strong>LaslesVPN Landing Page</strong> is an aesthetically pleasing and user-friendly website crafted to introduce potential users to the LaslesVPN brand and its top-notch VPN service. The landing page boasts a clean and minimalist design that highlights key selling points while maintaining a delightful user experience.</p>
 
