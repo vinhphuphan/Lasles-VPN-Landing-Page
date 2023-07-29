@@ -1,0 +1,44 @@
+#network {
+    padding-bottom: 1.8rem;
+    .network__heading {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        & > h2 {
+            width: 24rem;
+            color : $heading-color;
+            font-size: 2.2rem;
+            font-weight: 500;
+            line-height: 3.125rem;
+            text-align: center;
+        }
+    }
+    p {
+        margin : 1.25rem auto 0;
+    }
+
+    .container {
+        .network__image{
+            margin-top: 9rem;
+            width: 100%;
+        }
+    }
+}
+
+/*============ Samll Devices ============*/
+@media screen and (max-width : 767px) {
+    #network { 
+        width: 100%;
+        margin-top: 3rem;
+        padding : 0 5vw;
+        & > p {
+            width: 100%;
+        }
+
+        .container{
+            .network__image {
+                margin-top: 3rem;
+            }
+        }
+    }
+}

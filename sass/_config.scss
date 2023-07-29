@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+// Reset CSS
+* {
+    margin : 0;
+    padding : 0;
+    outline : 0;
+    border : 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+// Declare variables
+$primary-color : #F53838;
+$text-color : #4F5665;
+$heading-color : #0B132A;
+$white-color : #ffffff;
+$grey-color : #DDE0E4;
+$footer-color : #F8F8F8;
+$background-color : linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+$container-lg: 80%;
+$container-md: 90%;
+
+

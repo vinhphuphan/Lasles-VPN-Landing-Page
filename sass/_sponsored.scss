@@ -1,0 +1,29 @@
+#sponsored {
+    margin-top : 0;
+    padding-bottom: 0;
+    .container {
+        align-items: center;
+        .sponsored{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap : 3rem;
+            align-items: center;
+        }
+    }
+}
+
+/*============ Samll Devices ============*/
+@media screen and (max-width : 767px) {
+    #sponsored { 
+        width: 100%;
+        height: 10rem;
+        .container{
+            height: 100%;
+            .sponsored{
+                height: 75%;
+                gap: 1rem;
+            }
+        }
+    }
+}

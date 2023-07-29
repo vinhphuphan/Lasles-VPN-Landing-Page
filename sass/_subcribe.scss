@@ -1,0 +1,105 @@
+#subcribe {
+    margin-top: 0;
+    padding-bottom: 0;
+    background : #F8F8F8;
+    height: 26vh;
+    .container{
+        background: $white-color;
+        transform: translateY(-50%);
+        display: flex;
+        height: 14.5rem;
+        justify-content: center;
+        align-items: center;
+        padding : 3.6rem 4.3rem;
+        box-shadow: 0 42px 114px 0 rgba($color: #0D1025, $alpha: 0.2);
+        border-radius: 0.625rem;
+        .subcribe__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .subcribe__info {
+                & > h2 {
+                    color: $heading-color;
+                    width: 23rem;
+                    height: 5rem;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    line-height: 2.8125rem;
+                    margin-bottom: 1.25rem;
+                }
+
+                & > p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+/*============ Samll Devices ============*/
+@media screen and (max-width: 767px) {
+    #subcribe {
+        width: 100%;
+        height: 38vh;
+        margin-top: 14rem;
+        .container {
+            padding: 11rem 4.3rem;
+            box-shadow: 0 42px 114px 0 rgba($color: #0D1025, $alpha: 0.2);
+            .subcribe__wrapper{
+                flex-direction: column;
+                gap : 3rem;
+                .subcribe__info{
+                    text-align: center;
+                    
+                    h2 {
+                        width: 21rem;
+                    }
+                }   
+            }
+            .subcribe__btn {
+                display: flex;
+                justify-content: center;
+                .btn--primary{
+                    width: 15rem;
+                    height: 5rem;
+                    padding: 1.5rem 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+/*============ Samll Devices ============*/
+@media screen and (max-width: 400px) {
+    #subcribe {
+        .container {
+            .subcribe__wrapper{
+                .subcribe__info{
+                    text-align: center;
+                    
+                    h2 {
+                        width: 18rem;
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }   
+            }
+            .subcribe__btn {
+                .btn--primary{
+                    width: 15rem;
+                    height: 4rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

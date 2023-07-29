@@ -1,0 +1,81 @@
+#intro {
+    .container{
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        padding : 2.3rem 0;
+        box-shadow: 0 42px 114px 0 rgba($color: #0D1025, $alpha: 0.059);
+
+        .intro-wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            
+            article {
+                display: flex;
+                gap: 1.5rem;
+                justify-content: center;
+                align-items: center;
+                padding : 2rem 0;
+                &:nth-child(2){
+                    border-left: 2px solid #EEEFF2;
+                    border-right: 2px solid #EEEFF2;
+                }
+            }
+
+            .intro__icon{
+                display: flex;
+                width : 3.5rem;
+            }
+        }
+    }
+}
+
+/*============ Medium Devices ============*/
+@media screen and (max-width:1024px){
+    #intro {
+        margin-top: 0;
+    }
+}
+/*============ Samll Devices ============*/
+@media screen and (max-width : 767px) {
+    #intro {
+        height: 50vh;
+        width: 100%;
+
+        .container{
+            box-shadow: none;
+            padding-bottom: 1rem 0;
+            .intro-wrapper{
+                height: 100%;
+                grid-template-columns: 1fr;
+                
+                article {
+                    justify-content: flex-start;
+                    padding-left: calc((100vw - 15rem)/2);
+                    &:nth-child(2){
+                        border-left: none;
+                        border-right: none;
+                        // border-top: 2px solid #EEEFF2;
+                        // border-bottom: 2px solid #EEEFF2;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width : 400px) {
+    #intro {
+        .container{
+            .intro-wrapper{
+                article {
+                    padding-left: calc((100vw - 11rem)/2);
+                }
+            }
+            
+        }
+    }
+}
