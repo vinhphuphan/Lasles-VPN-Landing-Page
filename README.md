@@ -27,8 +27,21 @@
 <img src="https://raw.githubusercontent.com/vinhphuphan/Lasles-VPN-Landing-Page/main/images/laslesvpn.z8.web.core.windows.net_.png" style="max-width: 100%">
 
 ### Related Projects:question: 👨‍💻 🛰️
+
 <code>[Frontendmentor Challenge HTML CSS](https://github.com/vinhphuphan/Frontendmentor-Challenge-HTML-CSS)</code> 📊
 
 <code>[Hospital Landing Page Using HTML, CSS and JavaScript](https://github.com/vinhphuphan/Hospital-Landing-Page)</code> 📊
+
+<code>[Olympic-Weightlifting-Data-Analysis](https://github.com/vinhphuphan/Olympic-Weightlifting-Data-Analysis)</code> 📊
+
+<code>[Titanic - Machine Learning from Disaster using Python](https://github.com/vinhphuphan/Titanic-Machine-Learning-from-Disaster)</code> 📊
+
+<code>[Text Classification With Movie Reviews](https://github.com/vinhphuphan/Text-Classification-With-Movie-Reviews/)</code> 📊
+
+<code>[Living Species Image Classification using Python](https://github.com/vinhphuphan/Living-Species-Image-Classification)</code> 📊
+
+<code>[Name Entity Recognition](https://github.com/vinhphuphan/Name-Entity-Recognition)</code> 📊
+
+<code>[Tweet Analysis](https://github.com/vinhphuphan/Tweets-Analysis)</code> 📊
 
 **Have fun building!** 🚀
