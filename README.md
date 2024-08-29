@@ -7,7 +7,7 @@
 <p><strong>LaslesVPN Landing Page</strong> is an aesthetically pleasing and user-friendly website crafted to introduce potential users to the LaslesVPN brand and its top-notch VPN service. The landing page boasts a clean and minimalist design that highlights key selling points while maintaining a delightful user experience.</p>
 
 ### Links
-👉 Live Site URL: [LaslesVPN Landing Page](https://laslesvpn.z8.web.core.windows.net/)
+👉 Live Site URL: [LaslesVPN Landing Page](https://vinhphuphan.github.io/Lasles-VPN-Landing-Page/)
 
 ### Features
 - Sleek and Responsive Design
